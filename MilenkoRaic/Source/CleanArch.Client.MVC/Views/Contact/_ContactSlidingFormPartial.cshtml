@@ -1,0 +1,44 @@
+﻿@model CleanArch.Client.MVC.Models.Contact.ContactViewModel
+<section class="contact-sliding-form"  data-aos="zoom-in-up">
+    <div class="section-title">
+        <h2>Let's do some business</h2>
+        <p>Don't wait until tomorrow. Talk to me today, and learn how to start growing your pumpkin empire.</p>
+    </div>
+    <form id="contact-form" class="contact-form" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+
+        <ul id="progressbar" class="progressbar">
+            <li class="active">Personal data</li>
+            <li>Which service you need?</li>
+            <li>Personal Details</li>
+        </ul>
+
+        <fieldset>
+            <input asp-for="@Model.Email" type="email" name="email" id="email" placeholder="Email" required />
+            <input asp-for="@Model.Name" type="text" name="name" id="name" placeholder="Full name" required>
+            <input asp-for="@Model.Phone" type="tel" name="phone" id="phone" placeholder="Phone" required>
+            <button id="first-form-submit" type="button" name="next" class="next action-button" value="Next">Next<i class="fas fa-chevron-right"></i></button>
+        </fieldset>
+
+        <fieldset>
+            <input asp-for="@Model.Company" type="text" name="company" id="company" placeholder="Company" required>
+            <input asp-for="@Model.Manager" type="text" name="manager" id="manager" placeholder="Manager" required>
+            <select asp-for="@Model.Subject" id="service" class="service" required>
+                <option value="" selected disabled hidden>Choose service</option>
+                <option>Option 1</option>
+                <option>Option 2</option>
+                <option>Option 3</option>
+                <option>Option 4</option>
+                <option>Option 5</option>
+            </select>
+            <button type="button" name="previous" class="previous action-button" value="Previous"><i class="fas fa-chevron-left"></i>Previous</button>
+            <button id="second-form-submit" type="button" name="next" class="next action-button" value="Next">Next<i class="fas fa-chevron-right"></i></button>
+        </fieldset>
+
+        <fieldset>
+            <textarea asp-for="@Model.Message" name="message" id="message" placeholder="Message" rows="5" required></textarea>
+            <button type="button" name="previous" class="previous action-button" value="Previous"><i class="fas fa-chevron-left"></i>Previous</button>
+            <input id="contact-form-button" type="submit" href="javascript:void(0)" class="submit action-button" value="Submit" />
+            <button ><i class="fas fa-check"></i></button>
+        </fieldset>
+    </form>
+</section>

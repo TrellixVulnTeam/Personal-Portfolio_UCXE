@@ -1,0 +1,103 @@
+﻿@model CleanArch.Client.MVC.Models.Home.SubscribeViewModel
+<!-- ======= Footer ======= -->
+<footer id="footer" class="footer">
+    <div class="container">
+        <div class="footer-contact-cards pt-5 pb-5">
+            <div class="row">
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="footer-single-card">
+                        <a href="https://www.google.com/maps/dir/Current+Location/58.3042587,13.1844575,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x465adbb945044b75:0xa809fe7fa4b95528!2m2!1d13.1866462!2d58.3042587!3e0" target="_blank" rel="noopener"><i class="bi bi-geo-alt" data-toggle="tooltip" data-placement="left" title="Click to get directions!"></i></a>
+                        <div class="footer-single-card-text">
+                            <p class="footer-single-card-text-heading">Find Me</p>
+                            <span>Prinsagårdsgatan 5b<br />535 30 Kvänum<br />Sweden</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="footer-single-card">
+                        <a href="tel:+46790207845"><i class="bi bi-phone" data-toggle="tooltip" data-placement="left" title="Click to make a call!"></i></a>
+                        <div class="footer-single-card-text">
+                            <p class="footer-single-card-text-heading">Call Me</p>
+                            <span>+46 79 020 7845</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="footer-single-card">
+                        <a href="mailto:contact@milenkoraic.me"><i class="bi bi-envelope" data-toggle="tooltip" data-placement="left" title="Click to send email!"></i></a>
+                        <div class="footer-single-card-text">
+                            <p class="footer-single-card-text-heading">Mail Me</p>
+                            <span>contact@milenkoraic.me</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-link-cards">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 mb-50">
+                    <div class="single-card">
+                        <div class="heading">
+                            <p>Details</p>
+                        </div>
+                        <ul>
+                            <li><a asp-controller="About" asp-action="Index">About</a></li>
+                            <li><a asp-controller="Skills" asp-action="Index">Skills</a></li>
+                            @*<li><a asp-controller="Testimonials" asp-action="Index">Testimonials</a></li>*@
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                    <div class="single-card">
+                        <div class="heading">
+                            <p>Useful Links</p>
+                        </div>
+                        <ul>
+                            <li><a asp-controller="Portfolio" asp-action="Index">Portfolio</a></li>
+                            <li><a asp-controller="Downloads" asp-action="Index">Downloads</a></li>
+                            @*<li><a asp-controller="Services" asp-action="Index">Services</a></li>*@
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                    <div class="single-card">
+                        <div class="heading">
+                            <p>Subscribe</p>
+                        </div>
+                        <div class="footer-text mb-25">
+                            <p style="color:#888888;">Don’t miss to subscribe to my news feeds, kindly fill the form below. 
+                            <br />(THIS FEATURE IS UNDER DEVELOPMENT)</p>
+                        </div>
+                        <form id="subscribe-form" class="footer-subscribe-form" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" style="position:relative !important;">
+                            <input asp-for="@Model.Email" type="email" class="form-control" name="email" id="email" placeholder="Email Address" required>
+                            <button id="submit-subscribtion-form" aria-label="SUBMIT" type="submit" href="javascript:void(0)">
+                                <i class="fab fa-telegram-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12 text-center">
+                <div class="footer-menu">
+                    <ul>
+                        <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+                        <li><a asp-controller="Privacy" asp-action="Index">Privacy</a></li>
+                        <li><a href="/sitemap.xml">Sitemap</a></li>
+                        <li><a asp-controller="Contact" asp-action="Index">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright-area col-md-4 col-sm-6 col-xs-12 text-center">
+                <div class="copyright-text">
+                    <p><span>Copyright &copy; Milenko Raic </span><br /><span class="copyright">&nbsp;</span>&nbsp;All Right Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- End  Footer -->
+<a href="#body" class="back-to-top d-flex align-items-center justify-content-center scrollto"><i class="bi bi-chevron-up"></i></a>

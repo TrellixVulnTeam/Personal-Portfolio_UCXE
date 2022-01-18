@@ -1,0 +1,56 @@
+services:
+  milenkoraic-database:
+    container_name: milenkoraic-database
+    environment:
+      POSTGRES_DB: MilenkoRaic
+      POSTGRES_PASSWORD: m04LjuUCDgHBNhIfZRMD0DGo0NIyiq
+      POSTGRES_USER: postgres
+    image: postgres:10.13
+    ports:
+    - published: 5432
+      target: 5432
+    restart: always
+    volumes:
+    - C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Database\database_init.sh:/docker-entrypoint-initdb.d/database_init.sh:rw
+    - postgres-data:/var/lib/postgresql/data:rw
+  milenkoraic-mail-server:
+    container_name: milenkoraic-mail-server
+    image: djfarrelly/maildev
+    ports:
+    - published: 5555
+      target: 80
+  milenkoraic-web:
+    build:
+      context: C:\Users\Administrator\Desktop\Projects\MilenkoRaic
+      dockerfile: Source/CleanArch.Client.MVC/Dockerfile
+    container_name: milenkoraic-web
+    depends_on:
+      milenkoraic-database:
+        condition: service_started
+      milenkoraic-mail-server:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: milenkoraic/milenkoraic:1.0.0
+    ports:
+    - published: 5000
+      target: 80
+  web-proxy:
+    container_name: web-proxy
+    depends_on:
+      milenkoraic-web:
+        condition: service_started
+    image: nginx:1.13.12
+    ports:
+    - published: 80
+      target: 80
+    - published: 443
+      target: 443
+    volumes:
+    - C:\Users\Administrator\Desktop\Projects\MilenkoRaic\ReverseProxy\nginx.conf:/etc/nginx/nginx.conf:ro
+    - C:\Users\Administrator\Desktop\milenkoraic-certs\milenkoraic.me.crt:/etc/ssl/certs/milenkoraic.me.crt:ro
+    - C:\Users\Administrator\Desktop\milenkoraic-certs\milenkoraic.me.key:/etc/ssl/certs/milenkoraic.me.key:ro
+version: '3.4'
+volumes:
+  postgres-data:
+    name: postgres-data

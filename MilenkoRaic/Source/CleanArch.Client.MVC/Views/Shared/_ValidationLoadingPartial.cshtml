@@ -1,0 +1,46 @@
+﻿<div class="loading-mask">
+    <content class="loading text-center justify-content-center">
+        <ul class="hexagon-container">
+            <li class="hexagon hex_1"></li>
+            <li class="hexagon hex_2"></li>
+            <li class="hexagon hex_3"></li>
+            <li class="hexagon hex_4"></li>
+            <li class="hexagon hex_5"></li>
+            <li class="hexagon hex_6"></li>
+            <li class="hexagon hex_7"></li>
+        </ul>
+    </content>
+    <footer class="loading-footer container-fluid text-center">
+        <h4>{ Wait, where is the honey? }</h4>
+        <p>You upset the guard. We are preparing a safe entrance to the hive for you! </p>
+    </footer>
+</div>
+<div class="loading-mask">
+    <div class="loading">
+        <ul class="hexagon-container">
+            <li class="hexagon hex_1"></li>
+            <li class="hexagon hex_2"></li>
+            <li class="hexagon hex_3"></li>
+            <li class="hexagon hex_4"></li>
+            <li class="hexagon hex_5"></li>
+            <li class="hexagon hex_6"></li>
+            <li class="hexagon hex_7"></li>
+        </ul>
+        <div class="loading-footer">
+            <p>We ared processing your request! <br /> Please wait...</p>
+        </div>
+    </div>
+    <div class="sent-message">
+        <i class="bx bx-check-circle" data-toggle="tooltip" title="Success"></i>
+        <div class="sent-message-footer">
+            <p>Congratulations! Your message has been successfully sent. I will contact you very soon!</p>
+        </div>
+    </div>
+    <div class="error-message" asp-validation-summary="All">
+        <i class="bx bi-clipboard-x" data-toggle="tooltip" title="Error"></i>
+        <div class="error-message-footer">
+            <p>We are sorry. Currently unavailable. This feature is under development!</p>
+            @*<p>Something went wrong, and we couldn't process your message. Please try again later!</p>*@
+        </div>
+    </div>
+</div>

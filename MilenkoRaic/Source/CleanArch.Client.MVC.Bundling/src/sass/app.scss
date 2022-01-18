@@ -1,0 +1,41 @@
+//VENDORS
+@import "../vendors/css/bootstrap.min.css";
+$fa-font-path: "../../node_modules/@fortawesome/fontawesome-free/webfonts";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/_icons";
+
+//FILE PATHS
+@import './appPaths.scss';
+
+//APP COLORS
+@import './appColors.scss';
+
+//APP LOGO
+@import './appLogo.scss';
+
+//APP FONTS
+@import './appFonts.scss';
+//SHARED VIEWS
+@import './views/shared/cookies';
+@import './views/shared/footer';
+@import './views/shared/form-validation';
+@import './views/shared/layout';
+@import './views/shared/portfolio-page';
+@import './views/shared/website-navigation';
+
+//RANDERED VIEWS
+@import './views/home/hero-awasome-square-nav';
+@import './views/home/hero-footer-circle-nav';
+@import './views/home/hero-footer-share-nav';
+@import './views/home/index';
+
+@import './views/about/about';
+@import './views/blogg/blogg';
+@import './views/contact/contact';
+@import './views/downloads/downloads';
+@import './views/projects/projects';
+@import './views/resume/resume';
+@import './views/services/services';
+@import './views/skills/skills';
+@import './views/testimonials/testimonials';

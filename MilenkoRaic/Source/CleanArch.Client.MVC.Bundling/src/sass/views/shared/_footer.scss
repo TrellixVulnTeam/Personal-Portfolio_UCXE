@@ -1,0 +1,173 @@
+/*--------------------------------------------------------------
+    # Footer
+    --------------------------------------------------------------*/
+
+  .footer {
+    background-color: $color-1;
+    padding-top: 60px;
+    &-contact-cards {
+      border-bottom: 1px solid $color-1;
+      .row{
+        margin: 0;
+        padding: 0;
+        div{
+          margin-bottom: 10px;
+        }
+        span{
+          color: $white;
+          margin-left: 0;
+        }
+        i:hover{
+          transform: scale(1.1);
+          color: $color-2;
+        }
+      }
+    }
+    &-single-card i {
+      color: $color-2;
+      font-size: 26px;
+      float: left;
+      margin-top: 10px;
+    }
+    &-single-card-text {
+      padding-left: 15px;
+      display: inline-block;
+      span {
+        color: $gray-9 !important;
+        font-weight: 200;
+        letter-spacing: 1px;
+        font-size: 14px;
+      }
+    }
+  
+    &-single-card-text-heading {
+      display: block;
+      color: $white;
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 2px;
+      p {
+        margin-bottom: 14px;
+        font-size: 14px;
+        line-height: 28px;
+      }
+    }
+    &-link-cards {
+      padding-top: 40px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-bottom: 60px;
+      position: relative;
+      z-index: 2;
+      .single-card {
+        .heading{
+          p {
+            color: $white;
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 40px;
+            position: relative;
+            &:before {
+              content: "";
+              position: absolute;
+              left: 0;
+              bottom: -15px;
+              height: 2px;
+              width: 50px;
+              background: $color-2;
+            }
+          }
+        }
+        ul {
+            li{
+            display: inline-block;
+            width: 50%;
+            margin-bottom: 12px;  
+            a {
+              color: $white;
+              text-transform: capitalize;
+              color: $gray-9;
+              &:hover{
+                color: $color-2;
+              }
+            }
+          }
+        }
+      }
+    }
+    &-subscribe-form {
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 55px;
+      color: $gray-7;
+      input {
+        width: 100%;
+        padding: 14px 20px;
+        background: linear-gradient(-45deg, $gray-1, $color-1, $color-bg-dark, $color-bg-dark);
+        background-size: 400% 400%;
+        border: 1px solid $color-1;
+        color: $white;
+        margin-bottom: 30px;
+        &:focus{
+          background-color: $white !important;
+          color: $white;
+        }
+      }
+      button {
+          position: absolute;
+          top: 2px;
+          right: 2px;
+          height: 50px;
+          background: $color-1;
+          padding: 10px 15px;
+          border: 1px solid $color-2;
+          color: $white;
+          font-size: 18px;
+          border: none;
+          outline: none;
+          cursor: pointer;
+          &:hover{
+            background-color: $color-2;
+            color: $white;
+          i {
+            transform: rotate(-6deg);
+          }
+        }
+      }
+    }
+  }
+
+  .custom-chat-widget{
+    right:  5px !important;
+    bottom: 10px !important;
+    padding: 0 !important;
+    img{
+      display: none !important;
+    }
+  }
+
+  .copyright-area{
+    background-color: $color-1;
+    padding-bottom: 80px;
+    p {
+      margin: 0;
+      font-size: 14px;
+      color: $gray-7;
+    }
+  }
+  .footer-menu {
+    margin: 0;
+    text-align: left;
+    li {
+      display: inline-flex;
+      padding: 10px;
+      a {
+        font-size: 14px;
+        color: $gray-9;
+        &:hover{
+          color: $color-2;
+        }
+      }
+    }
+  }
+

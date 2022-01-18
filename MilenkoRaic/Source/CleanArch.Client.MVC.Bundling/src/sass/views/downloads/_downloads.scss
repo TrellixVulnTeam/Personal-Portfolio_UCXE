@@ -1,0 +1,187 @@
+$dg-narrow: 700px;
+$dg-wide: 1000px;
+$primary: $color-2;
+
+@mixin dg-wide {
+  @media (min-width: #{$dg-wide}) {
+    @content;
+  }
+}
+
+@mixin dg-narrow {
+  @media (min-width: #{$dg-narrow}) {
+    @content;
+  }
+}
+
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
+
+* { box-sizing: border-box; }
+
+.clearfix {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.section {
+  position: relative;
+  padding: 3rem 0; 
+}
+
+.button {   
+  margin: 0;
+  background: $primary; 
+  padding: 1em 2em;
+  border-radius: 2em;
+  color: lighten($primary, 40%); 
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 0.9em;
+  color: white;
+  cursor: pointer;
+  transition: .3s ease;
+  &:hover {
+    color: lighten($primary, 60%);
+    background: lighten($primary, 6%);
+  }
+  svg { 
+    margin-right: 1em;
+    opacity: 0.4;
+  }
+}
+
+.container { 
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 2em;
+}
+
+.download-cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -1rem;
+  margin-right: -1rem;
+  margin-bottom: -2rem;
+}
+
+.download-card {  
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 2em);
+  background: $color-bg-default;
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 2em;
+  margin: 0 1em 2em;
+  
+  a.button { text-decoration: none; }
+  
+  .download-cards[data-view='grid-view'] & {  
+    @include dg-narrow { 
+      float: left;
+      width: calc( 50% - 2em );
+      &:nth-child(3){ clear: both; }
+      &:nth-child(4){ clear: initial; }
+    }   
+    @include dg-wide { 
+      width: calc( (100% / 3) - 2em );
+      &:nth-child(3){ clear: initial; }
+      &:nth-child(4){ clear: both; }
+    }
+  }
+  
+  .download-cards[data-view="list-view"] & {
+    @include dg-narrow { padding-left: calc(200px); }
+  }
+  
+  &__image {   
+    display: flex;
+    align-items: center;
+    text-align: center;
+    min-height: 150px;
+    background-size: cover;
+    
+    @include dg-narrow { justify-content :center;}
+    
+    .download-cards[data-view='list-view'] & {    
+      @include dg-narrow {
+        width: 200px;
+        position: absolute;    
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      }  
+    } 
+  }
+ 
+  &__content {  
+    padding: 2em;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+ 
+  &__category {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    color: $color-2;
+    margin: 0 0 2em;
+    display: block;
+    &::before {
+      content: '| ';
+      color: $color-2;
+    }
+  }
+
+  &__title {
+    line-height: 1;
+    margin: 0 0 .5em;
+    margin-bottom: 30px;
+    font-size: 18px;}
+
+  &__description {
+    line-height: 1.5;
+    padding: 0;
+    margin: 0 0 1.5em;
+    clear: both;
+    color: #8b8e9c;
+    font-size: 16px;
+  } 
+}
+
+.dc-view-switcher {
+  display: none;
+  margin-bottom: 1em;
+  text-align: right;
+  
+  @include dg-narrow {
+    display: block;
+  } 
+  
+  & > button {
+    font-family: 'fontAwesome';  
+    background-color: transparent; 
+    background-repeat: no-repeat; 
+    background-position: 0px 0px; 
+    border: none;    
+    cursor: pointer;  
+    font-size: 1.5em;
+    vertical-align: middle;
+    color: $primary;
+    opacity: 0.3;
+    outline: none;
+    transition: opacity .4s ease;
+    padding: 0;
+    &:nth-child(1) { margin-right: .5rem; }
+    &[data-trigger="list-view"] { &::before { content: "\f00b"; } }
+    &[data-trigger="grid-view"] { &::before { content: "\f009"; } }
+    &[data-trigger].active { opacity: 1; }
+  }
+}

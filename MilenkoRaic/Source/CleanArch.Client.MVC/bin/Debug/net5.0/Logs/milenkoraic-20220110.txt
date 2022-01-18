@@ -1,0 +1,781 @@
+2022-01-10T05:45:31.2993951+00:00  [WRN] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. (96807dbc)
+2022-01-10T05:45:31.3622460+00:00  [WRN] No XML encryptor configured. Key {4a959e2b-da8c-4565-becd-4fa1d6133a73} may be persisted to storage in unencrypted form. (9ca7e61e)
+2022-01-10T05:45:31.9211568+00:00 0HMEJVHL2NPA6:00000003 [ERR] The view '"Index"' was not found. Searched locations: ["/Views/Home/Index.en-US.en-US.cshtml", "/Views/Home/Index.en.en-US.cshtml", "/Views/Home/Index.en-US.cshtml", "/Views/Home/Index.en-US.en.cshtml", "/Views/Home/Index.en.en.cshtml", "/Views/Home/Index.en.cshtml", "/Views/Home/Index.en-US.cshtml", "/Views/Home/Index.en.cshtml", "/Views/Home/Index.cshtml", "/Views/Shared/Index.en-US.en-US.cshtml", "/Views/Shared/Index.en.en-US.cshtml", "/Views/Shared/Index.en-US.cshtml", "/Views/Shared/Index.en-US.en.cshtml", "/Views/Shared/Index.en.en.cshtml", "/Views/Shared/Index.en.cshtml", "/Views/Shared/Index.en-US.cshtml", "/Views/Shared/Index.en.cshtml", "/Views/Shared/Index.cshtml", "/Pages/Shared/Index.en-US.en-US.cshtml", "/Pages/Shared/Index.en.en-US.cshtml", "/Pages/Shared/Index.en-US.cshtml", "/Pages/Shared/Index.en-US.en.cshtml", "/Pages/Shared/Index.en.en.cshtml", "/Pages/Shared/Index.en.cshtml", "/Pages/Shared/Index.en-US.cshtml", "/Pages/Shared/Index.en.cshtml", "/Pages/Shared/Index.cshtml"] (9bb2756c)
+2022-01-10T05:45:31.9653341+00:00 0HMEJVHL2NPA6:00000003 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: The view 'Index' was not found. The following locations were searched:
+/Views/Home/Index.en-US.en-US.cshtml
+/Views/Home/Index.en.en-US.cshtml
+/Views/Home/Index.en-US.cshtml
+/Views/Home/Index.en-US.en.cshtml
+/Views/Home/Index.en.en.cshtml
+/Views/Home/Index.en.cshtml
+/Views/Home/Index.en-US.cshtml
+/Views/Home/Index.en.cshtml
+/Views/Home/Index.cshtml
+/Views/Shared/Index.en-US.en-US.cshtml
+/Views/Shared/Index.en.en-US.cshtml
+/Views/Shared/Index.en-US.cshtml
+/Views/Shared/Index.en-US.en.cshtml
+/Views/Shared/Index.en.en.cshtml
+/Views/Shared/Index.en.cshtml
+/Views/Shared/Index.en-US.cshtml
+/Views/Shared/Index.en.cshtml
+/Views/Shared/Index.cshtml
+/Pages/Shared/Index.en-US.en-US.cshtml
+/Pages/Shared/Index.en.en-US.cshtml
+/Pages/Shared/Index.en-US.cshtml
+/Pages/Shared/Index.en-US.en.cshtml
+/Pages/Shared/Index.en.en.cshtml
+/Pages/Shared/Index.en.cshtml
+/Pages/Shared/Index.en-US.cshtml
+/Pages/Shared/Index.en.cshtml
+/Pages/Shared/Index.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-01-10T05:49:54.8877223+00:00  [WRN] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. (96807dbc)
+2022-01-10T15:27:56.7191284+00:00  [WRN] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. (96807dbc)
+2022-01-10T15:27:56.7791346+00:00  [WRN] No XML encryptor configured. Key {7c5ff976-6847-4ab6-bf07-4987dfabdcde} may be persisted to storage in unencrypted form. (9ca7e61e)
+2022-01-10T15:30:15.3141365+00:00  [WRN] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. (96807dbc)
+2022-01-10T15:35:22.7076322+00:00  [WRN] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. (96807dbc)
+2022-01-10T15:36:49.7789014+00:00  [WRN] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. (96807dbc)
+2022-01-10T15:36:49.8601553+00:00  [WRN] No XML encryptor configured. Key {2ffa0fe9-34ad-4cc4-810f-0f97bfc2deb3} may be persisted to storage in unencrypted form. (9ca7e61e)
+2022-01-10T15:36:50.8574508+00:00 0HMEK9S2FG5QE:00000003 [ERR] An exception was thrown while deserializing the token. (348bf365)
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The antiforgery token could not be decrypted.
+ ---> System.Security.Cryptography.CryptographicException: The key {7c5ff976-6847-4ab6-bf07-4987dfabdcde} was not found in the key ring.
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.DangerousUnprotect(Byte[] protectedData, Boolean ignoreRevocationErrors, Boolean& requiresMigration, Boolean& wasRevoked)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgeryTokenSerializer.Deserialize(String serializedToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgeryTokenSerializer.Deserialize(String serializedToken)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.GetCookieTokenDoesNotThrow(HttpContext httpContext)
+2022-01-10T15:47:20.9462472+00:00  [WRN] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. (96807dbc)
+2022-01-10T15:47:21.0071575+00:00  [WRN] No XML encryptor configured. Key {d97fb666-7ee9-47d6-bd23-7ca6651b522a} may be persisted to storage in unencrypted form. (9ca7e61e)
+2022-01-10T15:47:22.1265160+00:00 0HMEKA1UJD10Q:00000003 [ERR] An exception was thrown while deserializing the token. (348bf365)
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The antiforgery token could not be decrypted.
+ ---> System.Security.Cryptography.CryptographicException: The key {2ffa0fe9-34ad-4cc4-810f-0f97bfc2deb3} was not found in the key ring.
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.DangerousUnprotect(Byte[] protectedData, Boolean ignoreRevocationErrors, Boolean& requiresMigration, Boolean& wasRevoked)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgeryTokenSerializer.Deserialize(String serializedToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgeryTokenSerializer.Deserialize(String serializedToken)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.GetCookieTokenDoesNotThrow(HttpContext httpContext)
+2022-01-10T16:00:19.1855684+00:00  [WRN] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. (96807dbc)
+2022-01-10T16:09:29.6144935+00:00  [WRN] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. (96807dbc)
+2022-01-10T16:09:29.6693402+00:00  [WRN] No XML encryptor configured. Key {d156ced7-e679-4b86-acdf-1352d1da93b2} may be persisted to storage in unencrypted form. (9ca7e61e)
+2022-01-10T16:09:30.6802951+00:00 0HMEKAEAI2N9J:00000003 [ERR] An exception was thrown while deserializing the token. (348bf365)
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The antiforgery token could not be decrypted.
+ ---> System.Security.Cryptography.CryptographicException: The key {d97fb666-7ee9-47d6-bd23-7ca6651b522a} was not found in the key ring.
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.DangerousUnprotect(Byte[] protectedData, Boolean ignoreRevocationErrors, Boolean& requiresMigration, Boolean& wasRevoked)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgeryTokenSerializer.Deserialize(String serializedToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgeryTokenSerializer.Deserialize(String serializedToken)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.GetCookieTokenDoesNotThrow(HttpContext httpContext)
+2022-01-10T16:22:29.1585841+00:00  [WRN] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. (96807dbc)
+2022-01-10T17:03:47.2356367+00:00  [WRN] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. (96807dbc)
+2022-01-10T17:03:47.3190770+00:00  [WRN] No XML encryptor configured. Key {c12d43f1-7679-4627-9bb0-49f02634c768} may be persisted to storage in unencrypted form. (9ca7e61e)
+2022-01-10T17:03:48.3157899+00:00 0HMEKBCLD3GNI:00000003 [ERR] An exception was thrown while deserializing the token. (348bf365)
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The antiforgery token could not be decrypted.
+ ---> System.Security.Cryptography.CryptographicException: The key {d156ced7-e679-4b86-acdf-1352d1da93b2} was not found in the key ring.
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.DangerousUnprotect(Byte[] protectedData, Boolean ignoreRevocationErrors, Boolean& requiresMigration, Boolean& wasRevoked)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgeryTokenSerializer.Deserialize(String serializedToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgeryTokenSerializer.Deserialize(String serializedToken)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.GetCookieTokenDoesNotThrow(HttpContext httpContext)
+2022-01-10T17:16:15.9024834+00:00  [WRN] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. (96807dbc)
+2022-01-10T17:16:15.9808252+00:00  [WRN] No XML encryptor configured. Key {f978720f-bb96-4d19-b950-d9316aaeb543} may be persisted to storage in unencrypted form. (9ca7e61e)
+2022-01-10T17:16:17.0947021+00:00 0HMEKBJKHGMUC:00000003 [ERR] An exception was thrown while deserializing the token. (348bf365)
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The antiforgery token could not be decrypted.
+ ---> System.Security.Cryptography.CryptographicException: The key {c12d43f1-7679-4627-9bb0-49f02634c768} was not found in the key ring.
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.DangerousUnprotect(Byte[] protectedData, Boolean ignoreRevocationErrors, Boolean& requiresMigration, Boolean& wasRevoked)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgeryTokenSerializer.Deserialize(String serializedToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgeryTokenSerializer.Deserialize(String serializedToken)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.GetCookieTokenDoesNotThrow(HttpContext httpContext)
+2022-01-10T17:42:25.4308187+00:00  [WRN] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. (96807dbc)
+2022-01-10T17:42:25.4911764+00:00  [WRN] No XML encryptor configured. Key {6081e7d5-941e-4b6a-8ee3-ca22b31988ea} may be persisted to storage in unencrypted form. (9ca7e61e)
+2022-01-10T17:42:26.5985620+00:00 0HMEKC288NT5D:00000003 [ERR] An exception was thrown while deserializing the token. (348bf365)
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The antiforgery token could not be decrypted.
+ ---> System.Security.Cryptography.CryptographicException: The key {6164fb73-635b-4df9-b586-529f34439aca} was not found in the key ring.
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.DangerousUnprotect(Byte[] protectedData, Boolean ignoreRevocationErrors, Boolean& requiresMigration, Boolean& wasRevoked)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgeryTokenSerializer.Deserialize(String serializedToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgeryTokenSerializer.Deserialize(String serializedToken)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.GetCookieTokenDoesNotThrow(HttpContext httpContext)
+2022-01-10T17:57:23.7700501+00:00  [WRN] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. (96807dbc)
+2022-01-10T17:59:15.8616475+00:00  [WRN] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. (96807dbc)
+2022-01-10T18:03:46.8820952+00:00  [WRN] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. (96807dbc)
+2022-01-10T18:07:59.9522330+00:00  [WRN] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. (96807dbc)
+2022-01-10T18:09:58.2214499+00:00  [WRN] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. (96807dbc)
+2022-01-10T18:12:37.2495009+00:00  [WRN] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. (96807dbc)
+2022-01-10T18:18:59.1546354+00:00  [WRN] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. (96807dbc)
+2022-01-10T18:20:23.6487326+00:00  [WRN] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. (96807dbc)
+2022-01-10T18:22:16.3022066+00:00  [WRN] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. (96807dbc)
+2022-01-10T18:29:16.8135203+00:00  [WRN] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. (96807dbc)
+2022-01-10T18:32:34.0457066+00:00  [WRN] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. (96807dbc)
+2022-01-10T18:34:39.5653259+00:00  [WRN] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. (96807dbc)
+2022-01-10T18:43:09.1522961+00:00 0HMEKCVEAF831:0000000B [ERR] An exception occurred while sending the email. (44bd70d0)
+System.ArgumentNullException: Value cannot be null. (Parameter 'from')
+   at System.Net.Mail.MailMessage..ctor(String from, String to)
+   at System.Net.Mail.MailMessage..ctor(String from, String to, String subject, String body)
+   at CleanArch.Client.Infrastructure.Communication.Email.EmailSender.SendEmailAsync(String from, String to, String subject, String body) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Infrastructure\Communication\Email\EmailSender.cs:line 36
+   at CleanArch.Client.MVC.Controllers.ContactController.Submit(ContactViewModel model) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.MVC\Controllers\ContactController.cs:line 66
+2022-01-10T18:45:20.6749575+00:00 0HMEKCVEAF837:0000000A [ERR] An exception occurred while sending the email. (44bd70d0)
+System.ArgumentNullException: Value cannot be null. (Parameter 'from')
+   at System.Net.Mail.MailMessage..ctor(String from, String to)
+   at System.Net.Mail.MailMessage..ctor(String from, String to, String subject, String body)
+   at CleanArch.Client.Infrastructure.Communication.Email.EmailSender.SendEmailAsync(String from, String to, String subject, String body) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Infrastructure\Communication\Email\EmailSender.cs:line 36
+   at CleanArch.Client.MVC.Controllers.ContactController.Submit(ContactViewModel model) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.MVC\Controllers\ContactController.cs:line 66
+2022-01-10T18:54:13.7092101+00:00  [WRN] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. (96807dbc)
+2022-01-10T18:54:46.2037918+00:00 0HMEKDAC7JGBR:00000007 [ERR] An exception occurred while sending the email. (44bd70d0)
+System.Net.Mail.SmtpException: Failure sending mail.
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (00000001, 11): Resource temporarily unavailable
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses)
+   at System.Net.Dns.<>c.<GetHostEntryOrAddressesCoreAsync>b__27_2(Object s)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.TaskToApm.End[TResult](IAsyncResult asyncResult)
+   at System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.DoDnsCallback(IAsyncResult result, MultipleAddressConnectAsyncResult context)
+   at System.Net.Sockets.Socket.DnsCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.InitializeConnectionCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.ConnectCallback(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at CleanArch.Client.Infrastructure.Communication.Email.EmailSender.SendEmailAsync(String from, String to, String subject, String body) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Infrastructure\Communication\Email\EmailSender.cs:line 42
+   at CleanArch.Client.MVC.Controllers.ContactController.Submit(ContactViewModel model) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.MVC\Controllers\ContactController.cs:line 65
+2022-01-10T18:54:54.9423771+00:00 0HMEKDAC7JGBU:00000003 [ERR] An exception occurred while sending the email. (44bd70d0)
+System.Net.Mail.SmtpException: Failure sending mail.
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (00000001, 11): Resource temporarily unavailable
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses)
+   at System.Net.Dns.<>c.<GetHostEntryOrAddressesCoreAsync>b__27_2(Object s)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.TaskToApm.End[TResult](IAsyncResult asyncResult)
+   at System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.DoDnsCallback(IAsyncResult result, MultipleAddressConnectAsyncResult context)
+   at System.Net.Sockets.Socket.DnsCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.InitializeConnectionCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.ConnectCallback(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at CleanArch.Client.Infrastructure.Communication.Email.EmailSender.SendEmailAsync(String from, String to, String subject, String body) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Infrastructure\Communication\Email\EmailSender.cs:line 42
+   at CleanArch.Client.MVC.Controllers.ContactController.Submit(ContactViewModel model) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.MVC\Controllers\ContactController.cs:line 65
+2022-01-10T18:54:54.9740884+00:00 0HMEKDAC7JGBV:00000003 [ERR] An exception occurred while sending the email. (44bd70d0)
+System.Net.Mail.SmtpException: Failure sending mail.
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (00000001, 11): Resource temporarily unavailable
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses)
+   at System.Net.Dns.<>c.<GetHostEntryOrAddressesCoreAsync>b__27_2(Object s)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.TaskToApm.End[TResult](IAsyncResult asyncResult)
+   at System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.DoDnsCallback(IAsyncResult result, MultipleAddressConnectAsyncResult context)
+   at System.Net.Sockets.Socket.DnsCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.InitializeConnectionCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.ConnectCallback(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at CleanArch.Client.Infrastructure.Communication.Email.EmailSender.SendEmailAsync(String from, String to, String subject, String body) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Infrastructure\Communication\Email\EmailSender.cs:line 42
+   at CleanArch.Client.MVC.Controllers.ContactController.Submit(ContactViewModel model) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.MVC\Controllers\ContactController.cs:line 65
+2022-01-10T18:54:55.7892046+00:00 0HMEKDAC7JGBS:00000004 [ERR] An exception occurred while sending the email. (44bd70d0)
+System.Net.Mail.SmtpException: Failure sending mail.
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (00000001, 11): Resource temporarily unavailable
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses)
+   at System.Net.Dns.<>c.<GetHostEntryOrAddressesCoreAsync>b__27_2(Object s)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.TaskToApm.End[TResult](IAsyncResult asyncResult)
+   at System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.DoDnsCallback(IAsyncResult result, MultipleAddressConnectAsyncResult context)
+   at System.Net.Sockets.Socket.DnsCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.InitializeConnectionCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.ConnectCallback(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at CleanArch.Client.Infrastructure.Communication.Email.EmailSender.SendEmailAsync(String from, String to, String subject, String body) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Infrastructure\Communication\Email\EmailSender.cs:line 42
+   at CleanArch.Client.MVC.Controllers.ContactController.Submit(ContactViewModel model) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.MVC\Controllers\ContactController.cs:line 65
+2022-01-10T18:54:55.7911386+00:00 0HMEKDAC7JGBT:00000003 [ERR] An exception occurred while sending the email. (44bd70d0)
+System.Net.Mail.SmtpException: Failure sending mail.
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (00000001, 11): Resource temporarily unavailable
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses)
+   at System.Net.Dns.<>c.<GetHostEntryOrAddressesCoreAsync>b__27_2(Object s)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.TaskToApm.End[TResult](IAsyncResult asyncResult)
+   at System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.DoDnsCallback(IAsyncResult result, MultipleAddressConnectAsyncResult context)
+   at System.Net.Sockets.Socket.DnsCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.InitializeConnectionCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.ConnectCallback(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at CleanArch.Client.Infrastructure.Communication.Email.EmailSender.SendEmailAsync(String from, String to, String subject, String body) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Infrastructure\Communication\Email\EmailSender.cs:line 42
+   at CleanArch.Client.MVC.Controllers.ContactController.Submit(ContactViewModel model) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.MVC\Controllers\ContactController.cs:line 65
+2022-01-10T18:54:55.7945588+00:00 0HMEKDAC7JGC0:00000002 [ERR] An exception occurred while sending the email. (44bd70d0)
+System.Net.Mail.SmtpException: Failure sending mail.
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (00000001, 11): Resource temporarily unavailable
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses)
+   at System.Net.Dns.<>c.<GetHostEntryOrAddressesCoreAsync>b__27_2(Object s)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.TaskToApm.End[TResult](IAsyncResult asyncResult)
+   at System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.DoDnsCallback(IAsyncResult result, MultipleAddressConnectAsyncResult context)
+   at System.Net.Sockets.Socket.DnsCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.InitializeConnectionCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.ConnectCallback(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at CleanArch.Client.Infrastructure.Communication.Email.EmailSender.SendEmailAsync(String from, String to, String subject, String body) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Infrastructure\Communication\Email\EmailSender.cs:line 42
+   at CleanArch.Client.MVC.Controllers.ContactController.Submit(ContactViewModel model) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.MVC\Controllers\ContactController.cs:line 65
+2022-01-10T18:59:38.5314041+00:00 0HMEKDAC7JGC1:00000004 [ERR] An exception occurred while sending the email. (44bd70d0)
+System.Net.Mail.SmtpException: Failure sending mail.
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (00000001, 11): Resource temporarily unavailable
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses)
+   at System.Net.Dns.<>c.<GetHostEntryOrAddressesCoreAsync>b__27_2(Object s)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.TaskToApm.End[TResult](IAsyncResult asyncResult)
+   at System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.DoDnsCallback(IAsyncResult result, MultipleAddressConnectAsyncResult context)
+   at System.Net.Sockets.Socket.DnsCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.InitializeConnectionCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.ConnectCallback(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at CleanArch.Client.Infrastructure.Communication.Email.EmailSender.SendEmailAsync(String from, String to, String subject, String body) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Infrastructure\Communication\Email\EmailSender.cs:line 42
+   at CleanArch.Client.MVC.Controllers.ContactController.Submit(ContactViewModel model) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.MVC\Controllers\ContactController.cs:line 65
+2022-01-10T18:59:39.5193351+00:00 0HMEKDAC7JGBR:0000000C [ERR] An exception occurred while sending the email. (44bd70d0)
+System.Net.Mail.SmtpException: Failure sending mail.
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (00000001, 11): Resource temporarily unavailable
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses)
+   at System.Net.Dns.<>c.<GetHostEntryOrAddressesCoreAsync>b__27_2(Object s)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.TaskToApm.End[TResult](IAsyncResult asyncResult)
+   at System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.DoDnsCallback(IAsyncResult result, MultipleAddressConnectAsyncResult context)
+   at System.Net.Sockets.Socket.DnsCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.InitializeConnectionCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.ConnectCallback(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at CleanArch.Client.Infrastructure.Communication.Email.EmailSender.SendEmailAsync(String from, String to, String subject, String body) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Infrastructure\Communication\Email\EmailSender.cs:line 42
+   at CleanArch.Client.MVC.Controllers.ContactController.Submit(ContactViewModel model) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.MVC\Controllers\ContactController.cs:line 65
+2022-01-10T18:59:39.5228900+00:00 0HMEKDAC7JGC2:00000002 [ERR] An exception occurred while sending the email. (44bd70d0)
+System.Net.Mail.SmtpException: Failure sending mail.
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (00000001, 11): Resource temporarily unavailable
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses)
+   at System.Net.Dns.<>c.<GetHostEntryOrAddressesCoreAsync>b__27_2(Object s)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.TaskToApm.End[TResult](IAsyncResult asyncResult)
+   at System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.DoDnsCallback(IAsyncResult result, MultipleAddressConnectAsyncResult context)
+   at System.Net.Sockets.Socket.DnsCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.InitializeConnectionCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.ConnectCallback(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at CleanArch.Client.Infrastructure.Communication.Email.EmailSender.SendEmailAsync(String from, String to, String subject, String body) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Infrastructure\Communication\Email\EmailSender.cs:line 42
+   at CleanArch.Client.MVC.Controllers.ContactController.Submit(ContactViewModel model) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.MVC\Controllers\ContactController.cs:line 65
+2022-01-10T18:59:44.1560633+00:00 0HMEKDAC7JGC3:00000002 [ERR] An exception occurred while sending the email. (44bd70d0)
+System.Net.Mail.SmtpException: Failure sending mail.
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (00000001, 11): Resource temporarily unavailable
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses)
+   at System.Net.Dns.<>c.<GetHostEntryOrAddressesCoreAsync>b__27_2(Object s)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.TaskToApm.End[TResult](IAsyncResult asyncResult)
+   at System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.DoDnsCallback(IAsyncResult result, MultipleAddressConnectAsyncResult context)
+   at System.Net.Sockets.Socket.DnsCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.InitializeConnectionCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.ConnectCallback(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at CleanArch.Client.Infrastructure.Communication.Email.EmailSender.SendEmailAsync(String from, String to, String subject, String body) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Infrastructure\Communication\Email\EmailSender.cs:line 42
+   at CleanArch.Client.MVC.Controllers.ContactController.Submit(ContactViewModel model) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.MVC\Controllers\ContactController.cs:line 65
+2022-01-10T18:59:44.1596997+00:00 0HMEKDAC7JGC5:00000002 [ERR] An exception occurred while sending the email. (44bd70d0)
+System.Net.Mail.SmtpException: Failure sending mail.
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (00000001, 11): Resource temporarily unavailable
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses)
+   at System.Net.Dns.<>c.<GetHostEntryOrAddressesCoreAsync>b__27_2(Object s)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.TaskToApm.End[TResult](IAsyncResult asyncResult)
+   at System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.DoDnsCallback(IAsyncResult result, MultipleAddressConnectAsyncResult context)
+   at System.Net.Sockets.Socket.DnsCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.InitializeConnectionCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.ConnectCallback(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at CleanArch.Client.Infrastructure.Communication.Email.EmailSender.SendEmailAsync(String from, String to, String subject, String body) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Infrastructure\Communication\Email\EmailSender.cs:line 42
+   at CleanArch.Client.MVC.Controllers.ContactController.Submit(ContactViewModel model) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.MVC\Controllers\ContactController.cs:line 65
+2022-01-10T18:59:44.1627655+00:00 0HMEKDAC7JGC4:00000002 [ERR] An exception occurred while sending the email. (44bd70d0)
+System.Net.Mail.SmtpException: Failure sending mail.
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (00000001, 11): Resource temporarily unavailable
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses)
+   at System.Net.Dns.<>c.<GetHostEntryOrAddressesCoreAsync>b__27_2(Object s)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.TaskToApm.End[TResult](IAsyncResult asyncResult)
+   at System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.DoDnsCallback(IAsyncResult result, MultipleAddressConnectAsyncResult context)
+   at System.Net.Sockets.Socket.DnsCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.InitializeConnectionCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.ConnectCallback(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at CleanArch.Client.Infrastructure.Communication.Email.EmailSender.SendEmailAsync(String from, String to, String subject, String body) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Infrastructure\Communication\Email\EmailSender.cs:line 42
+   at CleanArch.Client.MVC.Controllers.ContactController.Submit(ContactViewModel model) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.MVC\Controllers\ContactController.cs:line 65
+2022-01-10T19:05:27.5961686+00:00  [WRN] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. (96807dbc)
+2022-01-10T19:05:55.7652977+00:00 0HMEKDGL2ARGM:00000003 [ERR] An exception occurred while sending the email. (44bd70d0)
+System.Net.Mail.SmtpException: Failure sending mail.
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (00000001, 11): Resource temporarily unavailable
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses)
+   at System.Net.Dns.<>c.<GetHostEntryOrAddressesCoreAsync>b__27_2(Object s)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.TaskToApm.End[TResult](IAsyncResult asyncResult)
+   at System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.DoDnsCallback(IAsyncResult result, MultipleAddressConnectAsyncResult context)
+   at System.Net.Sockets.Socket.DnsCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.InitializeConnectionCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.ConnectCallback(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at CleanArch.Client.Infrastructure.Communication.Email.EmailSender.SendEmailAsync(String from, String to, String subject, String body) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Infrastructure\Communication\Email\EmailSender.cs:line 42
+   at CleanArch.Client.MVC.Controllers.ContactController.Submit(ContactViewModel model) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.MVC\Controllers\ContactController.cs:line 65
+2022-01-10T19:06:03.5776956+00:00 0HMEKDGL2ARGK:00000004 [ERR] An exception occurred while sending the email. (44bd70d0)
+System.Net.Mail.SmtpException: Failure sending mail.
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (00000001, 11): Resource temporarily unavailable
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses)
+   at System.Net.Dns.<>c.<GetHostEntryOrAddressesCoreAsync>b__27_2(Object s)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.TaskToApm.End[TResult](IAsyncResult asyncResult)
+   at System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.DoDnsCallback(IAsyncResult result, MultipleAddressConnectAsyncResult context)
+   at System.Net.Sockets.Socket.DnsCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.InitializeConnectionCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.ConnectCallback(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at CleanArch.Client.Infrastructure.Communication.Email.EmailSender.SendEmailAsync(String from, String to, String subject, String body) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Infrastructure\Communication\Email\EmailSender.cs:line 42
+   at CleanArch.Client.MVC.Controllers.ContactController.Submit(ContactViewModel model) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.MVC\Controllers\ContactController.cs:line 65
+2022-01-10T19:06:03.5776969+00:00 0HMEKDGL2ARGN:00000003 [ERR] An exception occurred while sending the email. (44bd70d0)
+System.Net.Mail.SmtpException: Failure sending mail.
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (00000001, 11): Resource temporarily unavailable
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses)
+   at System.Net.Dns.<>c.<GetHostEntryOrAddressesCoreAsync>b__27_2(Object s)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.TaskToApm.End[TResult](IAsyncResult asyncResult)
+   at System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.DoDnsCallback(IAsyncResult result, MultipleAddressConnectAsyncResult context)
+   at System.Net.Sockets.Socket.DnsCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.InitializeConnectionCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.ConnectCallback(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at CleanArch.Client.Infrastructure.Communication.Email.EmailSender.SendEmailAsync(String from, String to, String subject, String body) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Infrastructure\Communication\Email\EmailSender.cs:line 42
+   at CleanArch.Client.MVC.Controllers.ContactController.Submit(ContactViewModel model) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.MVC\Controllers\ContactController.cs:line 65
+2022-01-10T19:06:04.8241278+00:00 0HMEKDGL2ARGL:00000008 [ERR] An exception occurred while sending the email. (44bd70d0)
+System.Net.Mail.SmtpException: Failure sending mail.
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (00000001, 11): Resource temporarily unavailable
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses)
+   at System.Net.Dns.<>c.<GetHostEntryOrAddressesCoreAsync>b__27_2(Object s)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.TaskToApm.End[TResult](IAsyncResult asyncResult)
+   at System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.DoDnsCallback(IAsyncResult result, MultipleAddressConnectAsyncResult context)
+   at System.Net.Sockets.Socket.DnsCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.InitializeConnectionCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.ConnectCallback(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at CleanArch.Client.Infrastructure.Communication.Email.EmailSender.SendEmailAsync(String from, String to, String subject, String body) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Infrastructure\Communication\Email\EmailSender.cs:line 42
+   at CleanArch.Client.MVC.Controllers.ContactController.Submit(ContactViewModel model) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.MVC\Controllers\ContactController.cs:line 65
+2022-01-10T19:06:04.9473127+00:00 0HMEKDGL2ARGP:00000002 [ERR] An exception occurred while sending the email. (44bd70d0)
+System.Net.Mail.SmtpException: Failure sending mail.
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (00000001, 11): Resource temporarily unavailable
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses)
+   at System.Net.Dns.<>c.<GetHostEntryOrAddressesCoreAsync>b__27_2(Object s)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.TaskToApm.End[TResult](IAsyncResult asyncResult)
+   at System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.DoDnsCallback(IAsyncResult result, MultipleAddressConnectAsyncResult context)
+   at System.Net.Sockets.Socket.DnsCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.InitializeConnectionCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.ConnectCallback(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at CleanArch.Client.Infrastructure.Communication.Email.EmailSender.SendEmailAsync(String from, String to, String subject, String body) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Infrastructure\Communication\Email\EmailSender.cs:line 42
+   at CleanArch.Client.MVC.Controllers.ContactController.Submit(ContactViewModel model) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.MVC\Controllers\ContactController.cs:line 65
+2022-01-10T19:06:04.9505212+00:00 0HMEKDGL2ARGO:00000002 [ERR] An exception occurred while sending the email. (44bd70d0)
+System.Net.Mail.SmtpException: Failure sending mail.
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (00000001, 11): Resource temporarily unavailable
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses)
+   at System.Net.Dns.<>c.<GetHostEntryOrAddressesCoreAsync>b__27_2(Object s)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.TaskToApm.End[TResult](IAsyncResult asyncResult)
+   at System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.DoDnsCallback(IAsyncResult result, MultipleAddressConnectAsyncResult context)
+   at System.Net.Sockets.Socket.DnsCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.InitializeConnectionCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.ConnectCallback(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at CleanArch.Client.Infrastructure.Communication.Email.EmailSender.SendEmailAsync(String from, String to, String subject, String body) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Infrastructure\Communication\Email\EmailSender.cs:line 42
+   at CleanArch.Client.MVC.Controllers.ContactController.Submit(ContactViewModel model) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.MVC\Controllers\ContactController.cs:line 65
+2022-01-10T19:10:28.2870850+00:00  [WRN] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. (96807dbc)
+2022-01-10T19:10:57.5982284+00:00 0HMEKDJEM3CL8:00000007 [ERR] An exception occurred while sending the email. (44bd70d0)
+System.Net.Mail.SmtpException: Failure sending mail.
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (00000001, 11): Resource temporarily unavailable
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses)
+   at System.Net.Dns.<>c.<GetHostEntryOrAddressesCoreAsync>b__27_2(Object s)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.TaskToApm.End[TResult](IAsyncResult asyncResult)
+   at System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.DoDnsCallback(IAsyncResult result, MultipleAddressConnectAsyncResult context)
+   at System.Net.Sockets.Socket.DnsCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.InitializeConnectionCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.ConnectCallback(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at CleanArch.Client.Infrastructure.Communication.Email.EmailSender.SendEmailAsync(String from, String to, String subject, String body) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Infrastructure\Communication\Email\EmailSender.cs:line 42
+   at CleanArch.Client.MVC.Controllers.ContactController.Submit(ContactViewModel model) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.MVC\Controllers\ContactController.cs:line 65
+2022-01-10T19:13:46.5820434+00:00  [WRN] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. (96807dbc)
+2022-01-10T19:14:25.5704129+00:00 0HMEKDL9VB95B:00000004 [ERR] An exception occurred while sending the email. (44bd70d0)
+System.Net.Mail.SmtpException: Failure sending mail.
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (00000001, 11): Resource temporarily unavailable
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses)
+   at System.Net.Dns.<>c.<GetHostEntryOrAddressesCoreAsync>b__27_2(Object s)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.TaskToApm.End[TResult](IAsyncResult asyncResult)
+   at System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.DoDnsCallback(IAsyncResult result, MultipleAddressConnectAsyncResult context)
+   at System.Net.Sockets.Socket.DnsCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.InitializeConnectionCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.ConnectCallback(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at CleanArch.Client.Infrastructure.Communication.Email.EmailSender.SendEmailAsync(String from, String to, String subject, String body) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Infrastructure\Communication\Email\EmailSender.cs:line 42
+   at CleanArch.Client.MVC.Controllers.ContactController.Submit(ContactViewModel model) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.MVC\Controllers\ContactController.cs:line 65
+2022-01-10T19:15:53.4968757+00:00 0HMEKDL9VB95C:0000000C [ERR] An exception occurred while sending the email. (44bd70d0)
+System.Net.Mail.SmtpException: Failure sending mail.
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (00000001, 11): Resource temporarily unavailable
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses)
+   at System.Net.Dns.<>c.<GetHostEntryOrAddressesCoreAsync>b__27_2(Object s)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.TaskToApm.End[TResult](IAsyncResult asyncResult)
+   at System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.DoDnsCallback(IAsyncResult result, MultipleAddressConnectAsyncResult context)
+   at System.Net.Sockets.Socket.DnsCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.InitializeConnectionCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.ConnectCallback(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at CleanArch.Client.Infrastructure.Communication.Email.EmailSender.SendEmailAsync(String from, String to, String subject, String body) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Infrastructure\Communication\Email\EmailSender.cs:line 42
+   at CleanArch.Client.MVC.Controllers.ContactController.Submit(ContactViewModel model) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.MVC\Controllers\ContactController.cs:line 65
+2022-01-10T19:15:54.8005810+00:00 0HMEKDL9VB95B:0000000E [ERR] An exception occurred while sending the email. (44bd70d0)
+System.Net.Mail.SmtpException: Failure sending mail.
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (00000001, 11): Resource temporarily unavailable
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses)
+   at System.Net.Dns.<>c.<GetHostEntryOrAddressesCoreAsync>b__27_2(Object s)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.TaskToApm.End[TResult](IAsyncResult asyncResult)
+   at System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.DoDnsCallback(IAsyncResult result, MultipleAddressConnectAsyncResult context)
+   at System.Net.Sockets.Socket.DnsCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.InitializeConnectionCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.ConnectCallback(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at CleanArch.Client.Infrastructure.Communication.Email.EmailSender.SendEmailAsync(String from, String to, String subject, String body) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Infrastructure\Communication\Email\EmailSender.cs:line 42
+   at CleanArch.Client.MVC.Controllers.ContactController.Submit(ContactViewModel model) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.MVC\Controllers\ContactController.cs:line 65
+2022-01-10T19:15:54.8036068+00:00 0HMEKDL9VB959:00000003 [ERR] An exception occurred while sending the email. (44bd70d0)
+System.Net.Mail.SmtpException: Failure sending mail.
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (00000001, 11): Resource temporarily unavailable
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses)
+   at System.Net.Dns.<>c.<GetHostEntryOrAddressesCoreAsync>b__27_2(Object s)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.TaskToApm.End[TResult](IAsyncResult asyncResult)
+   at System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.DoDnsCallback(IAsyncResult result, MultipleAddressConnectAsyncResult context)
+   at System.Net.Sockets.Socket.DnsCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.InitializeConnectionCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.ConnectCallback(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at CleanArch.Client.Infrastructure.Communication.Email.EmailSender.SendEmailAsync(String from, String to, String subject, String body) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Infrastructure\Communication\Email\EmailSender.cs:line 42
+   at CleanArch.Client.MVC.Controllers.ContactController.Submit(ContactViewModel model) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.MVC\Controllers\ContactController.cs:line 65
+2022-01-10T19:16:02.6278613+00:00 0HMEKDL9VB95A:00000008 [ERR] An exception occurred while sending the email. (44bd70d0)
+System.Net.Mail.SmtpException: Failure sending mail.
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (00000001, 11): Resource temporarily unavailable
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses)
+   at System.Net.Dns.<>c.<GetHostEntryOrAddressesCoreAsync>b__27_2(Object s)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.TaskToApm.End[TResult](IAsyncResult asyncResult)
+   at System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.DoDnsCallback(IAsyncResult result, MultipleAddressConnectAsyncResult context)
+   at System.Net.Sockets.Socket.DnsCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.InitializeConnectionCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.ConnectCallback(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at CleanArch.Client.Infrastructure.Communication.Email.EmailSender.SendEmailAsync(String from, String to, String subject, String body) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Infrastructure\Communication\Email\EmailSender.cs:line 42
+   at CleanArch.Client.MVC.Controllers.ContactController.Submit(ContactViewModel model) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.MVC\Controllers\ContactController.cs:line 65
+2022-01-10T19:16:02.6991587+00:00 0HMEKDL9VB95D:00000002 [ERR] An exception occurred while sending the email. (44bd70d0)
+System.Net.Mail.SmtpException: Failure sending mail.
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (00000001, 11): Resource temporarily unavailable
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses)
+   at System.Net.Dns.<>c.<GetHostEntryOrAddressesCoreAsync>b__27_2(Object s)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.TaskToApm.End[TResult](IAsyncResult asyncResult)
+   at System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.DoDnsCallback(IAsyncResult result, MultipleAddressConnectAsyncResult context)
+   at System.Net.Sockets.Socket.DnsCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.InitializeConnectionCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.ConnectCallback(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at CleanArch.Client.Infrastructure.Communication.Email.EmailSender.SendEmailAsync(String from, String to, String subject, String body) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Infrastructure\Communication\Email\EmailSender.cs:line 42
+   at CleanArch.Client.MVC.Controllers.ContactController.Submit(ContactViewModel model) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.MVC\Controllers\ContactController.cs:line 65
+2022-01-10T19:16:02.7271269+00:00 0HMEKDL9VB95E:00000002 [ERR] An exception occurred while sending the email. (44bd70d0)
+System.Net.Mail.SmtpException: Failure sending mail.
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (00000001, 11): Resource temporarily unavailable
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses)
+   at System.Net.Dns.<>c.<GetHostEntryOrAddressesCoreAsync>b__27_2(Object s)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.TaskToApm.End[TResult](IAsyncResult asyncResult)
+   at System.Net.Dns.EndGetHostAddresses(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.DoDnsCallback(IAsyncResult result, MultipleAddressConnectAsyncResult context)
+   at System.Net.Sockets.Socket.DnsCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.InitializeConnectionCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.ConnectCallback(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at CleanArch.Client.Infrastructure.Communication.Email.EmailSender.SendEmailAsync(String from, String to, String subject, String body) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Infrastructure\Communication\Email\EmailSender.cs:line 42
+   at CleanArch.Client.MVC.Controllers.ContactController.Submit(ContactViewModel model) in C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.MVC\Controllers\ContactController.cs:line 65
+2022-01-10T19:23:44.4939023+00:00  [WRN] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. (96807dbc)
+2022-01-10T19:25:59.3812741+00:00  [WRN] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. (96807dbc)

@@ -1,0 +1,43 @@
+version: '3.4'
+
+services:
+
+  web-proxy:
+    ports:
+      - "80:80"
+      - "443:443"
+    depends_on:
+      - milenkoraic-web
+
+  milenkoraic-mail-server:
+    container_name: milenkoraic-mail-server
+    image: djfarrelly/maildev
+    ports:
+      - "5555:80"
+
+  milenkoraic-database:
+    container_name: milenkoraic-database
+    restart: always
+    image: postgres:10.13
+    environment:
+      - POSTGRES_DB=MilenkoRaic
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=m04LjuUCDgHBNhIfZRMD0DGo0NIyiq
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./Source/CleanArch.Client.Database/database_init.sh:/docker-entrypoint-initdb.d/database_init.sh
+      - postgres-data:/var/lib/postgresql/data
+
+  milenkoraic-web:
+    ports:
+      - 5000:80
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    depends_on:
+      - milenkoraic-database
+      - milenkoraic-mail-server
+
+volumes:
+  postgres-data:
+    name: postgres-data

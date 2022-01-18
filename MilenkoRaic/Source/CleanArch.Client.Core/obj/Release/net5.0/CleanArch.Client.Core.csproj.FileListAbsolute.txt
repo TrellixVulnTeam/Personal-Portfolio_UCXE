@@ -1,0 +1,15 @@
+C:\app\build\CleanArch.Client.Core.deps.json
+C:\app\build\CleanArch.Client.Core.dll
+C:\app\build\ref\CleanArch.Client.Core.dll
+C:\app\build\CleanArch.Client.Core.pdb
+C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Core\bin\Release\net5.0\CleanArch.Client.Core.deps.json
+C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Core\bin\Release\net5.0\CleanArch.Client.Core.dll
+C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Core\bin\Release\net5.0\ref\CleanArch.Client.Core.dll
+C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Core\bin\Release\net5.0\CleanArch.Client.Core.pdb
+C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Core\obj\Release\net5.0\CleanArch.Client.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Core\obj\Release\net5.0\CleanArch.Client.Core.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Core\obj\Release\net5.0\CleanArch.Client.Core.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Core\obj\Release\net5.0\CleanArch.Client.Core.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Core\obj\Release\net5.0\CleanArch.Client.Core.dll
+C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Core\obj\Release\net5.0\ref\CleanArch.Client.Core.dll
+C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Core\obj\Release\net5.0\CleanArch.Client.Core.pdb

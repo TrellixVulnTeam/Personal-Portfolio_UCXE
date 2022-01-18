@@ -1,0 +1,86 @@
+.section-service-cards {
+	padding-top: 50px;
+	padding-bottom: 120px;
+	font-family: "Poppins", sans-serif;
+	color: #fff;
+
+	&-header-section {
+		margin-bottom: 35px;
+		.title {
+			position: relative;
+			margin-bottom: 40px;
+			padding-bottom: 25px;
+			text-transform: uppercase;
+			font-weight: 700;
+			&:before {
+				content: "";
+				position: absolute;
+				bottom: 0;
+				left: 50%;
+				transform: translateX(-50%);
+				width: 140px;
+				height: 1px;
+				background-color: $color-2;
+			}		
+			&:after {
+				content: "";
+				position: absolute;
+				bottom: -1px;
+				left: 50%;
+				transform: translateX(-50%);
+				width: 45px;
+				height: 3px;
+				background-color: $color-2;
+			}	
+			span {
+				color: $color-2;
+			}	
+		}
+		.description {
+			color: $white;
+		}
+	}
+	
+	&-single-card {
+		margin-top: 40px;
+		background-color: $color-bg-default;
+		box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+
+		.part-1 {
+			padding: 40px 40px 25px;
+			border-bottom: 2px solid $color-bg-dark;
+			svg {
+				margin-bottom: 25px;
+				font-size: 50px;
+				color: $color-2;
+			}
+			
+			.title {
+				font-size: 17px;
+				font-weight: 700;
+				letter-spacing: 0.02em;
+				line-height: 1.8em;
+			}
+		}
+		
+		.part-2 {
+			padding: 30px 40px 40px;
+			.description {
+				margin-bottom: 22px;
+				color: #6f6f71;
+				font-size: 14px;
+				line-height: 1.8em;
+			}
+			
+			a {
+				color: #fff;
+				font-size: 14px;
+				text-decoration: none;
+				svg {
+					margin-right: 10px;
+					color: $color-2;
+				}
+			}
+		}
+	}
+}

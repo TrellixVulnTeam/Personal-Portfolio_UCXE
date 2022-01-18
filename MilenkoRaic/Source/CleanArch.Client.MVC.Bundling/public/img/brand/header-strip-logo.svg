@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="60"
+   height="60"
+   viewBox="0 0 15.874999 15.875"
+   version="1.1"
+   id="svg1180"
+   inkscape:export-filename="C:\Users\Administrator\Documents\GitHub\WebDevelopment\MilenkoRaic\Source\MilenkoRaic\Webpack\public\favicon-96x96.png"
+   inkscape:export-xdpi="153.60001"
+   inkscape:export-ydpi="153.60001"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="header-strip-logo.svg">
+  <defs
+     id="defs1174" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="7.919596"
+     inkscape:cx="22.699565"
+     inkscape:cy="43.121452"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1600"
+     inkscape:window-height="837"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata1177">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path897"
+       d="M 2.6370227,11.769948 H 5.0148906 L 6.2792267,8.9898074 5.9648898,8.3052502 4.6572151,11.267007 H 3.5211646 L 5.7553314,6.3819494 7.931249,11.127302 8.9685637,8.9898074 8.5913591,8.3052502 7.931249,9.7197686 5.7553314,4.9523105 Z"
+       style="fill:#ad2424;fill-opacity:1;stroke:none;stroke-width:0.25215;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="path899"
+       d="M 6.9317839,6.0683 7.2641542,6.8103989 7.931249,5.2841136 10.889517,11.769948 h 2.388967 L 10.167057,4.9523105 9.6299017,6.1275739 9.9325338,6.8103989 10.167057,6.3755649 12.396592,11.267007 H 11.305144 L 7.931249,3.8357161 Z"
+       style="fill:#ad2424;fill-opacity:1;stroke:none;stroke-width:0.25215;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+</svg>

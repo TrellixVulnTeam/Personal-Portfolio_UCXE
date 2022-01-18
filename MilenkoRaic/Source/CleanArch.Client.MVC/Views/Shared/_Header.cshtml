@@ -1,0 +1,59 @@
+﻿
+<!-- ======= Header Strip ======= -->
+<div id="header-strip" class="header-strip text-center">
+    <div class="logo">
+        <div class="logo-holder">
+            <a asp-controller="Home" asp-action="Index" class="logo-center">
+                <img src="~/img/brand/header-strip-logo.svg" alt="Milenko Raic Logo" />
+            </a>
+        </div>
+        <div id="mobile-nav-social-links" class="website-navigation-social-links mt-3 text-center">
+            <a href="https://www.facebook.com/milenko.raic" class="website-navigation-link-icon facebook" target="_blank" rel="noopener noreferrer"><i class="bx bxl-facebook" data-toggle="tooltip" title="Facebook"></i></a>
+            <a href="https://twitter.com/raic_milenko" class="website-navigation-link-icon twitter" target="_blank" rel="noopener noreferrer"><i class="bx bxl-twitter" data-toggle="tooltip" title="Twitter"></i></a>
+            <a href="https://www.instagram.com/milenkoraic" class="website-navigation-link-icon instagram" target="_blank" rel="noopener noreferrer"><i class="bx bxl-instagram" data-toggle="tooltip" title="Instagram"></i></a>
+            <a href="https://www.linkedin.com/in/milenkoraic/" class="website-navigation-link-icon linkedin" target="_blank" rel="noopener noreferrer"><i class="bx bxl-linkedin" data-toggle="tooltip" title="LinkedIn"></i></a>
+            <a href="https://www.youtube.com/channel/UCN5rxOxZt6kIZSP_v5n43hg" class="website-navigation-link-icon youtube" target="_blank" rel="noopener noreferrer"><i class="bx bxl-youtube" data-toggle="tooltip" title="YouTube"></i></a>
+            <a href="https://github.com/milenkoraic" class="website-navigation-link-icon github" target="_blank" rel="noopener noreferrer"><i class="bx bxl-github" data-toggle="tooltip" title="GitHub"></i></a>
+        </div>
+    </div>
+    <nav id="website-navigation">
+        <ul id="website-navigation" class="website-navigation-menu navbar">
+            <li class="profile">
+                <a class="website-navigation-image-plate">
+                    <img src="/img/home/profile-img.jpg" alt="" class="website-navigation-image img-fluid rounded-circle">
+                </a>
+                <h1 class="website-navigation-name text-light"><a asp-controller="Home" asp-action="Index" aria-label="Home" class="desktope-nav-name text-light">Milenko Raic</a></h1>
+            </li>
+            <li><a is-active-route asp-controller="Home" asp-action="Index" class="website-navigation-link home-link"><i class="bi bi-house" style="margin-right:10px;"></i><span>Home</span></a></li>
+            <li>
+                <a class="website-navigation-link dropdown">About<img src="/ico/chevron-down.svg" class="submenu-chevron" alt="arrow-down"></a>
+                <ul class="submenu">
+                    <li><a class="website-navigation-link" is-active-route asp-route-culture="sv" asp-controller="About" asp-action="Index">Who am I?</a></li>
+                    <li><a class="website-navigation-link" is-active-route asp-controller="AboutWork" asp-action="Index">What I do?</a></li>
+                    <li><a class="website-navigation-link" is-active-route asp-controller="Skills" asp-action="Index">Why I fit?</a></li>
+                </ul>
+            </li>
+            @*<li>
+            <a class="website-navigation-link dropdown">Services<img src="/ico/chevron-down.svg" class="submenu-chevron" alt="arrow-down"></a>
+            <ul class="submenu">
+                <li><a class="website-navigation-link" is-active-route asp-controller="Services" asp-action="Index">All services</a></li>
+                <li><a class="website-navigation-link" href="#">IT consulting</a></li>
+                <li><a class="website-navigation-link" href="#">Software development</a></li>
+                <li><a class="website-navigation-link" href="#">Web development</a></li>
+                <li><a class="website-navigation-link" href="#">Web design</a></li>
+                <li><a class="website-navigation-link" href="#">Website administration</a></li>
+                <li><a class="website-navigation-link" href="#">Cloud hosting</a></li>
+                <li><a class="website-navigation-link" href="#">Domain managment</a></li>
+                <li><a class="website-navigation-link" href="#">SEO optimization</a></li>
+                <li><a class="website-navigation-link" href="#">Remote support</a></li>
+            </ul>
+        </li>*@
+            <li><a is-active-route asp-controller="Portfolio" asp-action="Index" class="website-navigation-link"><span>Portfolio</span></a></li>
+            <li><a asp-controller="Downloads" asp-action="Index">Downloads</a></li>
+            @*<li><a is-active-route asp-controller="Blogg" asp-action="Index" class="website-navigation-link"><span>Blogg</span></a></li>*@
+            <li><a is-active-route asp-controller="Contact" asp-action="Index" class="website-navigation-link"><i class="bi bi-envelope" style="margin-right:10px;"></i><span>Contact</span></a></li>
+        </ul>
+        <partial name="/Views/Shared/_SelectLanguagePartial.cshtml" />
+    </nav>
+</div>
+<!-- End Header Strip -->

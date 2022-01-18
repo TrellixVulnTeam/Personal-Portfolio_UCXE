@@ -1,0 +1,198 @@
+.blogg-wrapper{
+    margin-top: 20px;
+    padding: 5px;
+}
+.post-module {
+    position: relative;
+    z-index: 1;
+    display: block;
+    min-width: 270px;
+    max-width: 600px;
+    height: 470px;
+    margin-bottom: 40px;
+    -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
+    transition: all 0.3s linear 0s;
+  }
+  .post-module:hover,
+  .hover {
+      transform: translateY(-10px);
+    -webkit-box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+  }
+
+  .post-module .thumbnail {
+    height: 400px;
+    overflow: hidden;
+  }
+  .post-module .thumbnail .date {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+    background: $color-2;
+    color: $white;
+    opacity: 0.9;
+    width: 55px;
+    height: 55px;
+    padding: 5px 0;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 55px;
+    font-weight: 700;
+    text-align: center;
+    -webkti-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .post-module .thumbnail .date .day {
+    font-size: 16px;
+  }
+  .post-module .thumbnail .date .month {
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+  .post-module .thumbnail img {
+    display: block;
+    width: auto;
+    height: 100%;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
+    transition: all 0.3s linear 0s;
+  }
+  .post-module .post-content {
+    position: absolute;
+    bottom: 0;
+    opacity: 0.95;
+    background-color: $color-1;
+    width: 100%;
+    padding: 20px !important;
+    -webkti-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+    -moz-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+    -ms-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+    -o-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+    transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+  }
+  .post-module .post-content .category {
+    position: absolute;
+    top: -34px;
+    left: 0;
+    background: $color-2;
+    padding: 10px 15px;
+    color: $white;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .post-module .post-content .title {
+    margin: 0;
+    padding: 0 0 10px;
+    color: $white;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .post-module .post-content .sub_title {
+    margin: 0;
+    padding: 0 0 20px;
+    color: $color-2;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .post-module .post-content .description {
+    display: none;
+    color: $white;
+    font-size: 14px;
+    line-height: 1.8em;
+    .read-more-btn{
+      background: $color-1;
+      font-weight: 600;
+      border: 0;
+      padding: 10px 15px;
+      transition: 0.4s;
+      border-radius: 3px;
+      position: static;
+      margin-top: 10px;
+      right: 10px !important;
+      &:hover{
+        background-color: $color-2;
+      }
+    }
+  }
+  .post-module .post-content .post-meta {
+    display: block;
+    color: $gray-9;
+    margin-top: 40px;
+  }
+  .post-module .post-content .post-meta .timestamp {
+    margin: 0 26px 0 0;
+  }
+  .post-module .post-content .post-meta a {
+    color: $gray-9;
+    text-decoration: none;
+  }
+  .hover .post-content .description {
+    display: block !important;
+    height: auto !important;
+    opacity: 1 !important;
+  }
+  .blogg-container {
+    max-width: 800px;
+    min-width: 640px;
+    margin: 0 auto;
+  }
+  .blogg-container:before,
+  .blogg-container:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  .blogg-container .column {
+    width: 50%;
+    padding: 10px 25px;
+    -webkti-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+  }
+  .blogg-container .column .demo-title {
+    margin: 0 0 15px;
+    color: $gray-6;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .blogg-container .info {
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  .blogg-container .info h1 {
+    margin: 0 0 15px;
+    padding: 0;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .blogg-container .info span {
+    color: $gray-6;
+    font-size: 12px;
+  }
+  .blogg-container .info span a {
+    color: #000000;
+    text-decoration: none;
+  }
+  .blogg-container .info span .fa {
+    color: $color-1;
+  }
+  

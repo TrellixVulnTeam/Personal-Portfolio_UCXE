@@ -1,0 +1,37 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+<!doctype html>
+<html lang="en-us">
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <environment include="Development">
+        <link rel="stylesheet" type="text/css" href="~/css/app/app.css" asp-append-version="true" />
+        <link rel="stylesheet" type="text/css" href="~/css/defaultVendors/defaultVendors.css" />
+    </environment>
+    <environment exclude="Development">
+        <link rel="stylesheet" type="text/css" href="~/css/app/app.min.css" asp-append-version="true" />
+        <link rel="stylesheet" type="text/css" href="~/css/defaultVendors/defaultVendors.min.css" />
+    </environment>
+</head>
+<body id="body" class="no-select">
+    <div id="page-container">
+        <div id="content-wrap">
+            <partial name="/Views/Shared/_CookieConsentPartial.cshtml" />
+            <partial name="/Views/Shared/_Header.cshtml" />
+            <content class="portfolio-page"> @RenderBody()</content>
+        </div>
+        <partial name="/Views/Shared/_Footer.cshtml" />
+        <partial name="/Views/Shared/_ValidationLoadingPartial.cshtml" />
+    </div>
+    <environment include="Development">
+        <script type="text/javascript" src="~/js/app/app.js" asp-append-version="true"></script>
+        <script type="text/javascript" src="~/js/defaultVendors/defaultVendors.js" asp-append-version="true"></script>
+    </environment>
+    <environment exclude="Development">
+        <script type="text/javascript" src="~/js/app/app.min.js" asp-append-version="true"></script>
+        <script type="text/javascript" src="~/js/defaultVendors/defaultVendors.min.js" asp-append-version="true"></script>
+    </environment>
+</body>
+</html>

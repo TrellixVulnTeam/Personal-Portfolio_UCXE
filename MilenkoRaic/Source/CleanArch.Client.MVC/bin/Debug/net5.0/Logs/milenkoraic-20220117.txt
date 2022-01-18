@@ -1,0 +1,5 @@
+2022-01-17T00:42:59.9977507+00:00  [WRN] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. (96807dbc)
+2022-01-17T00:57:23.5229346+00:00  [WRN] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. (96807dbc)
+2022-01-17T03:33:30.3445270+00:00  [WRN] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. (96807dbc)
+2022-01-17T09:25:31.3015795+00:00  [WRN] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. (96807dbc)
+2022-01-17T10:27:25.8710328+00:00  [WRN] Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. (96807dbc)

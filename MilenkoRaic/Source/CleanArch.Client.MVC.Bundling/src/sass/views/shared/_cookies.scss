@@ -1,0 +1,330 @@
+@import '../../mixins/breakpoint';
+
+.btn-primary {
+	padding: 10px !important;
+	border: 1px solid transparent;
+	text-transform: uppercase !important;
+	font-size: 14px !important;
+	font-weight: 300;
+	text-decoration: none;
+	margin-top: 8px;
+	margin-left: 0;
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+	background: $color-2 !important;
+	color: $white !important;
+	border: 1px solid  $color-2;
+	text-align: center !important;
+	box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25) !important;
+}
+
+.cookie-policy-link{
+	color: $gray-9 !important;
+}
+
+
+.cookie-modal {
+    position: fixed !important;
+    bottom: 0;
+    z-index: 1000 !important;
+	&-footer {
+		padding: 0rem 1rem;
+		width: 100%; 
+		height: 60px;
+		box-sizing: border-box;
+		position: relative; 
+		z-index: 2;
+		display: flex; 
+		flex-flow: row nowrap; 
+		justify-content: space-between; 
+		align-items: flex-start;
+		background-color: $color-1;
+		#cookie-icon {
+			margin-top: 7px; 
+			margin-right: 0;
+			padding: 10px; 
+			box-sizing: border-box;
+			height: auto; 
+			display: flex; 
+			flex-flow: row nowrap; 
+			align-items: center;
+			position: relative;
+			outline: none;
+			border: none; 
+			border-radius: 5px;
+			transition: background-color .5s ease;
+			cursor: pointer;
+			img {
+				width: 1.5rem; height: 1.5rem;
+				vertical-align: middle;
+			}
+			&:after {
+				margin: 0 0 0 .5rem;
+				content: "";
+				width: 0;
+				height: 0;
+				border-style: solid;
+				border-width: 6px 5px 0 5px;
+				border-color: $white transparent transparent transparent;
+				transition: transform .25s ease;
+			}
+			&.active {
+				background-color: $color-bg-default;
+				&:after {
+					transform: rotate(180deg);
+				}
+			}
+		}
+		@include breakpoint(600) {
+			padding: 0 1rem;
+		}
+	}
+	
+}
+
+
+.cookies-module {
+	margin: 0; 
+    box-sizing: border-box;
+	width: 100%;
+	position: relative;
+	background-color: $color-1;
+	display: flex; 
+	flex-flow: row nowrap; 
+	justify-content: space-between; 
+	align-items: flex-start;
+	h3 {
+		font-size: 1.125rem; 
+		font-weight: 700; 
+	}
+	h4 {
+		font-size: 1rem; 
+		font-weight: 300; 
+		#cookie-status {
+			color: $status-on;
+			letter-spacing: 2px;
+		}
+	}
+	p {
+		margin: 0 0 1rem; 
+		padding: 5px;
+        font-size: .9rem;
+		font-weight: 300; 
+		color: $gray-9;
+		letter-spacing: 1px;
+		line-height: 150%;
+		&:last-of-type {
+			margin-bottom: 0;
+		}
+		a {
+			color: $white;
+		}
+	}
+
+	section:last-of-type {
+		margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 1rem; 
+        box-sizing: border-box;
+		width: 40%;
+		border-radius: 8px;
+		border: dashed 1px $color-bg-default;
+		flex: 0 0 auto;
+		display: flex; 
+		flex-flow: row nowrap; 
+		justify-content: space-between; 
+		align-items: flex-start;
+		.content {
+			margin: 0 2rem 0 0;
+			width: 100%;
+			p {
+				margin: 0;
+			}
+			.on-content {
+				display: block;
+			}
+			.off-content {
+				display: none;
+			}
+		}
+		#cookie-toggle {
+			width: 150px; 
+			height: 100px;
+			position: relative;
+			flex: 0 0 auto;
+			#plate {
+                cursor: pointer;
+				width: 100px; 
+				height: 100px;
+				position: absolute; 
+				top: 50%; 
+				right: 0%; 
+				transform: translate(0,-50%); 
+				z-index: 0;
+				background: $color-bg-default;
+				border-radius: 50%;
+				span {
+					position: absolute; 
+					top: 50%; 
+					left: 50%;
+					transform: translate(-50%,-50%);
+				}
+				&:before, &:after {
+					content: "";
+					border: solid 3px #0e8a4d; 
+					border-radius: 50%;
+					position: absolute; 
+					top: 50%; 
+					left: 50%; 
+					transform: translate(-50%,-50%);
+				}
+				&:before {
+					content: "";
+					width: 89%; height: 89%;
+				}
+				&:after {
+					content: "";
+					width: 94%; height: 90%;
+				}
+				#cookie-svg {
+					width: 68%;
+					position: absolute; 
+					top: 50%; 
+					left: 50%; 
+					transform: translate(-50%,-50%); 
+					z-index: 1;
+					pointer-events: none;
+					div {
+						padding-bottom: 100%;
+						width: 100%; 
+						height: 0;
+						position: relative;
+						svg {
+							width: 100%; 
+							height: 100%;
+							position: absolute; 
+							top: 0; 
+							left: 0;
+							overflow: visible;
+						}
+					}
+				}
+			}
+			#track {
+				width: 100%; 
+                height: 50px;
+				border-radius: 25px;
+				position: absolute; 
+                top: 50%; 
+                left: 50%; 
+                transform: translate(-50%,-50%);
+				overflow: hidden;
+				background-image: linear-gradient(0deg, $color-1, $color-1 100%);
+				&:before {
+					content: "";
+					position: absolute; 
+					top: 0; 
+					left: 0;
+					width: 100%; 
+					height: 100%;
+					display: none;
+					font-weight: 300 !important;
+					letter-spacing: 2px !important;
+				}
+				p {
+					margin: 0; 
+                    padding: 0;
+					font-size: .75rem; 
+                    font-weight: bold;
+					text-transform: uppercase; 
+                    line-height: 100%; 
+                    text-align: center;
+					display: inline-block;
+					position: absolute; 
+					top: 50%; 
+					transform: translateY(-50%);
+					width: calc(100% - 100px);
+					pointer-events: none;
+					&.on {
+						left: 0px; 
+						display: block;
+					}
+					&.off {
+						right: 0px; 
+						display: none;
+					}
+				}
+			}
+		}
+	}
+
+	&.off {
+		h4 {
+			#cookie-status {
+				color: $status-off;
+				letter-spacing: 2px;
+			}
+		}
+		section:last-of-type {
+			.content {
+				.on-content {
+					display: none;
+				}
+				.off-content {
+					display: block;
+				}
+			}
+			#cookie-toggle {
+				#plate {
+					box-shadow: 3px 5px 0 rgba(0,0,0,0.1);
+					&:before, &:after {border-color: $status-off;}
+				}
+				#track {
+					&:before {display: block;}
+					p {
+						&.on {display: none;}
+						&.off {display: block;}
+					}
+				}
+			}
+		}
+	}
+
+	@include breakpoint(900) {
+		section:last-of-type {
+			width: 50%;	
+		}
+	}
+
+	@include breakpoint(700) {
+		section:last-of-type {
+			flex-flow: row wrap; 
+			justify-content: center;
+			.content {
+				div {
+					margin: 0 0 1rem;
+				}
+			}
+		}
+	}
+
+	@include breakpoint(600) {
+		padding: 0 1rem;
+		flex-flow: row wrap;
+		section:first-of-type {
+			width: 100%;
+			flex: 0 0 auto;
+			padding: 10px;
+			padding-top: 20px;
+		}
+		section:last-of-type {
+			flex-flow: row nowrap; 
+			justify-content: flex-start;
+			width: 100%;
+			flex: 0 0 auto;
+			.content {
+				margin: 0;				
+			}
+		}
+	}	
+}

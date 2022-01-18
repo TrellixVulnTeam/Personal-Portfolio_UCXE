@@ -1,0 +1,33 @@
+﻿@using Microsoft.Extensions.Options
+@model CleanArch.Client.MVC.Models.Contact.ContactViewModel
+@inject IOptions<CleanArch.Client.Infrastructure.GeoData.GoogleMaps> GoogleMaps
+<!-- ======= Contact Section ======= -->
+<section id="portfolio-page-contact" class="portfolio-page-contact portfolio-page-distant">
+    <div class="container">
+        <div class="section-title">
+            <h2>Wanna jump into my loop?</h2>
+            <p>If you need any information or you have a request for an offer, I am here for you!</p>
+        </div>
+        <partial name="/Views/Contact/_ContactCardsPartial.cshtml" />
+    </div>
+    <div class="container">
+        <div class="row" data-aos="fade-in">
+            <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+                <partial name="/Views/Contact/_ContactSlidingFormPartial.cshtml" />            
+            </div>
+
+            <div class="col-lg-5 d-flex align-items-stretch" data-aos="flip-down">
+                    <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=prinsagardsgatan%205b&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Contact Section -->
+<!-- Development Environment Main JS Files -->
+<environment include="Development">
+    <script type="text/javascript" src="~/js/contact/contact.js" asp-append-version="true"></script>
+</environment>
+<!-- Production Environment Main JS Files -->
+<environment exclude="Development">
+    <script type="text/javascript" src="~/js/contact/contact.min.js" asp-append-version="true"></script>
+</environment>

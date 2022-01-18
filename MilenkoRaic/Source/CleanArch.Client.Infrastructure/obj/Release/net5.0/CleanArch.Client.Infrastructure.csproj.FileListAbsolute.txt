@@ -1,0 +1,16 @@
+C:\app\build\CleanArch.Client.Infrastructure.deps.json
+C:\app\build\CleanArch.Client.Infrastructure.dll
+C:\app\build\ref\CleanArch.Client.Infrastructure.dll
+C:\app\build\CleanArch.Client.Infrastructure.pdb
+C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Infrastructure\bin\Release\net5.0\CleanArch.Client.Infrastructure.deps.json
+C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Infrastructure\bin\Release\net5.0\CleanArch.Client.Infrastructure.dll
+C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Infrastructure\bin\Release\net5.0\ref\CleanArch.Client.Infrastructure.dll
+C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Infrastructure\bin\Release\net5.0\CleanArch.Client.Infrastructure.pdb
+C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Infrastructure\obj\Release\net5.0\CleanArch.Client.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Infrastructure\obj\Release\net5.0\CleanArch.Client.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Infrastructure\obj\Release\net5.0\CleanArch.Client.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Infrastructure\obj\Release\net5.0\CleanArch.Client.Infrastructure.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Infrastructure\obj\Release\net5.0\CleanArch.Client.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Infrastructure\obj\Release\net5.0\CleanArch.Client.Infrastructure.dll
+C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Infrastructure\obj\Release\net5.0\ref\CleanArch.Client.Infrastructure.dll
+C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Infrastructure\obj\Release\net5.0\CleanArch.Client.Infrastructure.pdb

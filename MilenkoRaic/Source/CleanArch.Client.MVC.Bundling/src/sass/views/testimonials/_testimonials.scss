@@ -1,0 +1,81 @@
+/*--------------------------------------------------------------
+  # Testimonials
+  --------------------------------------------------------------*/
+  .portfolio-page-testimonials .portfolio-page-testimonials-item {
+    box-sizing: content-box;
+    text-align: center;
+    min-height: 320px;
+  }
+  
+  .portfolio-page-testimonials .portfolio-page-testimonials-item .portfolio-page-testimonials-img {
+    width: 90px;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+  
+  .portfolio-page-testimonials .portfolio-page-testimonials-item h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+  }
+  
+  .portfolio-page-testimonials .portfolio-page-testimonials-item h4 {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .portfolio-page-testimonials .portfolio-page-testimonials-item .quote-icon-left, .portfolio-page-testimonials .portfolio-page-testimonials-item .quote-icon-right {
+    font-size: 26px;
+  }
+  
+  .portfolio-page-testimonials .portfolio-page-testimonials-item .quote-icon-left {
+    display: inline-block;
+    left: -5px;
+    position: relative;
+  }
+  
+  .portfolio-page-testimonials .portfolio-page-testimonials-item .quote-icon-right {
+    display: inline-block;
+    right: -5px;
+    position: relative;
+    top: 10px;
+  }
+  
+  .portfolio-page-testimonials .portfolio-page-testimonials-item p {
+    font-style: italic;
+    margin: 25px 15px 15px 15px;
+    padding: 20px;
+    position: relative;
+    border-radius: 6px;
+    background-color: $color-2;
+    opacity: 0.7;
+    box-shadow: 0px 2px 15px rgba(32, 14, 43, 0.3);
+  }
+  
+  .portfolio-page-testimonials .portfolio-page-testimonials-item p::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 22px solid $color-2;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    position: absolute;
+    bottom: -20px;
+    left: calc(50% - 20px);
+  }
+  
+  .portfolio-page-testimonials .swiper-pagination {
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  .portfolio-page-testimonials .swiper-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    opacity: 1;
+    border: 1px solid #149ddd;
+  }
+  
+  .portfolio-page-testimonials .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #149ddd;
+  }

@@ -1,0 +1,15 @@
+C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Core\bin\Debug\net5.0\CleanArch.Client.Core.deps.json
+C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Core\bin\Debug\net5.0\CleanArch.Client.Core.dll
+C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Core\bin\Debug\net5.0\ref\CleanArch.Client.Core.dll
+C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Core\bin\Debug\net5.0\CleanArch.Client.Core.pdb
+C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Core\bin\Debug\net5.0\CleanArch.Client.Infrastructure.dll
+C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Core\bin\Debug\net5.0\CleanArch.Client.Infrastructure.pdb
+C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Core\obj\Debug\net5.0\CleanArch.Client.Core.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Core\obj\Debug\net5.0\CleanArch.Client.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Core\obj\Debug\net5.0\CleanArch.Client.Core.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Core\obj\Debug\net5.0\CleanArch.Client.Core.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Core\obj\Debug\net5.0\CleanArch.Client.Core.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Core\obj\Debug\net5.0\CleanArch.Client.Core.csproj.CopyComplete
+C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Core\obj\Debug\net5.0\CleanArch.Client.Core.dll
+C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Core\obj\Debug\net5.0\ref\CleanArch.Client.Core.dll
+C:\Users\Administrator\Desktop\Projects\MilenkoRaic\Source\CleanArch.Client.Core\obj\Debug\net5.0\CleanArch.Client.Core.pdb
